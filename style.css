@@ -101,6 +101,7 @@ a:hover{
     border: none;
     color: #fff;
     cursor: pointer;
+    font-size: 2rem;;
 }
 .sidebar{
     position: fixed;
