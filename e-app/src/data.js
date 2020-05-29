@@ -2,6 +2,7 @@ export default {
     products:
         [
             {
+                _id: '123',
                 name: 'Slim Shirt',
                 category: 'Shirts',
                 images: 'https://images.pexels.com/photos/594610/pexels-photo-594610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -11,6 +12,7 @@ export default {
                 numReviews: 10
             },
             {
+                _id: '456',
                 name: 'Slim Shirt',
                 category: 'Shirts',
                 images: 'https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?cs=srgb&dl=man-in-white-v-neck-t-shirt-and-black-pants-775358.jpg&fm=jpg',
@@ -20,6 +22,7 @@ export default {
                 numReviews: 101
             },
             {
+                _id: '789',
                 name: 'Slim Pants',
                 category: 'Pants',
                 images: 'https://images.pexels.com/photos/1436289/pexels-photo-1436289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -29,6 +32,7 @@ export default {
                 numReviews: 200
             },
             {
+                _id: '000',
                 name: 'Jacket',
                 category: 'Shirts',
                 images: 'https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',

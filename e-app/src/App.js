@@ -1,8 +1,8 @@
-// <!-- Time: 01:06:00 from 5:06:24 -->
+// <!-- Time: 01:30:00 from 5:06:24 -->
 import React from 'react';
 import data from './data';
 import './App.css';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, Link} from 'react-router-dom';
 import HomeScreen from './Screens/HomeScreen';
 import ProductScreen from './Screens/ProductScreen';
 
@@ -20,7 +20,7 @@ function App() {
         <header className="header">
           <div className="brand">
             <button onClick={openMenu}>&#9776;</button>
-            <a href="index.html">amazonia</a>
+            <Link to='/'>amazona</Link>
           </div>
           <div className="header-links">
             <a href="cart.html">Cart</a>
@@ -41,24 +41,9 @@ function App() {
         </aside>
         <main className="main">
           <div className="content">
-            <Route path="/products/:id" component={ProductScreen} />
+            <Route path="/product/:id" component={ProductScreen} />
             <Route path="/" exact={true} component={HomeScreen} />
-            <ul className="products">
-              {
-                data.products.map(product =>
-                  <li>
-                    <div className="product">
-                      <img className="product-img" src={product.images} alt="product" />
-                      <div className="product-name"><a href="product.html">{product.name}</a></div>
-                      <div className="product-brand">{product.brand}</div>
-                      <div className="product-price">${product.price}</div>
-                      <div className="product-rating">{product.rating} Stars ({product.numReviews})</div>
-
-                    </div>
-                  </li>
-                )
-              }
-            </ul>
+      
           </div>
         </main>
         <footer className="footer">
