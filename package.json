@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptwlo/ecommerce-site.git"
+  },
+  "author": "Petter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptwlo/ecommerce-site/issues"
+  },
+  "homepage": "https://github.com/ptwlo/ecommerce-site#readme"
+}
