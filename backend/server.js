@@ -1,5 +1,5 @@
- const express = require('express');
- import data from '../e-app/src/data';
+import express from 'express';
+ import data from './data';
  const app = express();
 
  app.get('/api/products', (req, res)=>{
