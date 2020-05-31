@@ -1,10 +1,9 @@
-// <!-- Time: 01:39:00 from 5:06:24 -->
+// <!-- Time: 01:54:00 from 5:06:24 -->
 import React from 'react';
-import data from './data';
 import './App.css';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
-import HomeScreen from './Screens/HomeScreen';
-import ProductScreen from './Screens/ProductScreen';
+import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
 
 function App() {
   const openMenu = () => {
